@@ -21,10 +21,13 @@ body {
   margin: 0;
 }
 
+.photo {
+  display: block;
+  flex-wrap: wrap;
+}
+
 img {
   width: 100%;
-  display: relative;
-  flex-wrap: nowrap;
 }
 
 .photo:first-child {
