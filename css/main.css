@@ -21,24 +21,27 @@ body {
   margin: 0;
 }
 
-.photo {
+img {
+  width: 100%;
   display: block;
   flex-wrap: wrap;
 }
 
-img {
+.photo:first-child {
+  height: 33.3333%;
   width: 100%;
 }
 
-.photo:first-child {
-  width: 33.3333%;
-}
-
 .photo:nth-child(odd) {
-  width: 33.3333%;
+  height: 33.3333%;
+  width: 100%;
 }
 
 .photo:nth-child(2) {
+  display: none;
+}
+
+.photo:last-child {
   display: none;
 }
 
