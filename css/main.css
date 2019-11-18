@@ -24,16 +24,13 @@ body {
 img {
   width: 100%;
   display: block;
-  flex-wrap: wrap;
 }
 
 .photo:first-child {
-  height: 33.3333%;
   width: 100%;
 }
 
 .photo:nth-child(odd) {
-  height: 33.3333%;
   width: 100%;
 }
 
@@ -47,37 +44,36 @@ img {
 
 @media only screen and (min-width: 25em) {
 
-  html {
-    width: 100%;
+  section {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .photo:first-child {
-    height: 50%;
     width: 100%;
   }
 
   .photo:nth-child(2) {
-    height: 25%;
-    width: 25%;
+    width: 50%;
+    display: block;
   }
 
-  .photo:nth-child(3n) {
-    height: 25%;
-    width: 25%;
+  .photo:nth-child(3) {
+    width: 50%;
+  }
+
+  .photo:nth-child(4) {
+    width: 50%;
   }
 
   .photo:last-child {
-    height: 25%;
-    width: 25%;
+    width: 50%;
+    display: block;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
-
-  html {
-    width: 110%;
-  }
 
   .photo {
     width: 50%;
@@ -94,10 +90,6 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
-
-  html {
-    width: 120%;
-  }
 
   .photo {
     width: 100%;
