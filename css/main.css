@@ -17,6 +17,23 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+img {
+
+}
+
+.photo:first-child {
+  width: 33.3333%;
+}
+
+.photo:nth-child(odd) {
+  width: 33.3333%;
+}
+
 .photo:nth-child(2) {
   display: none;
 }
