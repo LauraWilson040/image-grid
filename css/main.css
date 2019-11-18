@@ -22,8 +22,8 @@ body {
 }
 
 img {
-  width: 100%
-  display: flex;
+  width: 100%;
+  display: relative;
   flex-wrap: nowrap;
 }
 
