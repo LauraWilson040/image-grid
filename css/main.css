@@ -100,20 +100,35 @@ img {
   .photo:last-child {
     display: none;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-  .photo {
-    width: 100%;
+  section {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .photo:first-child {
-    width: 100%;
+    width: 66.6666%;%;
   }
 
   .photo:nth-child(2) {
+    width: 33.3333%;
     display: block;
+  }
+
+  .photo:nth-child(3) {
+    width: 33.3333%;
+  }
+
+  .photo:nth-child(4) {
+    width: 33.3333%;
+  }
+
+  .photo:last-child {
+    width: 33.3333%;
   }
 
 }
