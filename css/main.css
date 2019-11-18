@@ -29,7 +29,7 @@ html {
   }
 
   .photo {
-    width: 100%
+    width: 66.6666%;
   }
 
 }
@@ -42,7 +42,15 @@ html {
   }
 
   .photo {
-    width: 33.33%
+    width: 50%;
+  }
+
+  .photo:nth-child(2) {
+    display: block;
+  }
+
+  .photo:last-child {
+    display: none;
   }
 
 }
@@ -55,7 +63,14 @@ html {
   }
 
   .photo {
-    width: 25%
+    width: 33.3333%;
   }
+
+  .photo:first-child {
+    width: 100%;
+  }
+
+  .photo:nth-child(2) {
+    display: block;
 
 }
